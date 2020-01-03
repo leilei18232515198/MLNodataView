@@ -71,11 +71,11 @@
         return ;
     }
     
-    //  不需要重复创建
-    if (self.backgroundView) {
-        return ;
-    }
-    
+//    //  不需要重复创建
+//    if (self.backgroundView) {
+//        return ;
+//    }
+//    
     //  自定义了占位图
     if ([self.delegate respondsToSelector:@selector(noDataView)]) {
         self.backgroundView = [self.delegate performSelector:@selector(noDataView)];
