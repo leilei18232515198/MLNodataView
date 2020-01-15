@@ -132,7 +132,7 @@
     label.textColor      = color;
     label.text           = message;
     label.textAlignment  = NSTextAlignmentCenter;
-    label.frame          = CGRectMake(0, CGRectGetMaxY(imgView.frame), sW, label.font.lineHeight);
+    label.frame          = CGRectMake(0, CGRectGetMaxY(imgView.frame)+10, sW, label.font.lineHeight);
     
     //  视图
     MLNOdataView *view   = [[MLNOdataView alloc] init];
